@@ -110,9 +110,6 @@ const Dashboard = () => {
             <header className="page-header">
                 <nav>
                     <a href="#0" aria-label="forecastr logo" className="logo">
-                        {/* <svg width={140} height={49}>
-                            <use xlinkHref="#logo" />
-                        </svg> */}
                         <img src={logo} alt="" width={150} height={150}/>
                     </a>
                     <button
