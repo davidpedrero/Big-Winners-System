@@ -243,23 +243,105 @@ const Dashboard = () => {
                     </div>
                 </section>
                 <section className="grid">
-                    <article />
-                    <article />
-                    <article />
-                    <article />
-                    <article />
-                    <article />
-                    <article />
-                    <article />
+                    <article>
+                    <div>
+                    <h1>General</h1>
+                    <br></br>
+                    <label for="fname">Full name: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    <br></br><br></br>
+                    <label for="fname">Order ID: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    <br></br><br></br>
+                    <label for="fname">Customer ID: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    <br></br><br></br>
+                    <label for="fname">Draw Date: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    <br></br><br></br>
+                    <label for="fname">Game: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    <br></br><br></br>
+                    <label for="fname">Amount Won: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    <br></br><br></br>
+                    <label for="fname">Ticket Images: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    </div>
+                    </article>
+                    <article>
+                    <div>
+                    <h1>Personal</h1>
+                    <br></br>
+                    <label for="fname">Address: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    <br></br><br></br>
+                    <label for="fname">Documents Confirmed?: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    <br></br><br></br>
+                    <label for="fname">Zendesk Ticket: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    <br></br><br></br>
+                    <label for="fname">Url: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    <br></br><br></br>
+                    <label for="fname">Ready for Mailout: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    <br></br><br></br>
+                    </div>
+                    </article>
+                    <article>
+                    <div>
+                    <h1>Tracking</h1>
+                    <br></br>
+                    <label for="fname">Tracking Number: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    <br></br><br></br>
+                    <label for="fname">Mailed By: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    <br></br><br></br>
+                    <label for="fname">Date Mailed: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    <br></br><br></br>
+                    <label for="fname">Winners Box Status: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    <br></br><br></br>
+                    <label for="fname">Image: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    <br></br><br></br>
+                    <label for="fname">Email Sent: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    <br></br><br></br>
+                    <label for="fname">Delivery Status: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    <br></br><br></br>
+                    </div>
+                    </article>
+                    <article>
+                    <div>
+                    <h1>Notes</h1>
+                    <br></br>
+                    <label for="fname">Notes: </label>
+                    <input type="text" id="fname" name="fname"></input>
+                    <br></br><br></br>
+                    </div>
+                    </article>
+                    {/* <article /> */}
+                    {/* <article /> */}
+                    {/* <article /> */}
+                    {/* <article /> */}
+                    {/* <article /> */}
+                    {/* <article /> */}
+                    {/* <article /> */}
                 </section>
                 <footer className="page-footer">
                     <span>made by </span>
-                    <a href="https://georgemartsoukos.com/" target="_blank">
+                    <a href="https://nj.lotto.com/" target="_blank">
                         <img
                             width={24}
                             height={24}
-                            src="https://assets.codepen.io/162656/george-martsoukos-small-logo.svg"
-                            alt="George Martsoukos logo"
+                            src="https://images.ctfassets.net/kv7tzfb3km9m/sEGjQa6mo9jhemmn66O2s/bbc5b800aa45421db55c7b820e48a238/logo.png"
+                            alt="Lotto.com Logo"
                         />
                     </a>
                 </footer>

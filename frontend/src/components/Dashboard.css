@@ -297,12 +297,13 @@ body {
     grid-gap: 30px;
 }
 
-.page-content .grid>article {
+.page-content .grid > article {
     display: flex;
-    height: 300px;
+    height: 450px;
     background: var(--page-content-blockColor);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
+
 }
 
 .page-content .grid>article:first-child,
@@ -310,6 +311,20 @@ body {
     grid-column: 1 / -1;
 }
 
+.page-content .grid > article > div {
+    margin: 2rem 2rem 2rem 2rem;
+} 
+
+.page-content .grid > article > div > input {
+    outline: none;
+    background: rgb(245, 254, 255);
+    height: 1.2rem;
+    width: 10rem;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 0.2px;
+    border-radius: 1rem;
+}
 
 /* MQ RULES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
