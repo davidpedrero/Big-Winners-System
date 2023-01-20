@@ -318,7 +318,7 @@ const Dashboard = () => {
                     </div>
                     </article>
                     <article>
-                    <div>
+                    <div id="notes">
                     <h1>Notes</h1>
                     <br></br>
                     <label for="fname">Notes: </label>

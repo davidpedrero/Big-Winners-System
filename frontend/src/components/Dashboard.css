@@ -313,7 +313,7 @@ body {
 
 .page-content .grid > article > div {
     margin: 2rem 2rem 2rem 2rem;
-} 
+}
 
 .page-content .grid > article > div > input {
     outline: none;
@@ -324,6 +324,10 @@ body {
     border-color: #000000;
     border-width: 0.2px;
     border-radius: 1rem;
+}
+
+#notes > input {
+    height: 10rem;
 }
 
 /* MQ RULES
