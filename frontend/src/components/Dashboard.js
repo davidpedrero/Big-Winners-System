@@ -321,8 +321,7 @@ const Dashboard = () => {
                     <div id="notes">
                     <h1>Notes</h1>
                     <br></br>
-                    <label for="fname">Notes: </label>
-                    <input type="text" id="fname" name="fname"></input>
+                    <textarea rows="4" cols="50"></textarea>
                     <br></br><br></br>
                     </div>
                     </article>

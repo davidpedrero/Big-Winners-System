@@ -326,8 +326,16 @@ body {
     border-radius: 1rem;
 }
 
-#notes > input {
-    height: 10rem;
+#notes > textarea {
+    resize: none;
+    outline: none;
+    background: rgb(245, 254, 255);
+    height: 20rem;
+    width: 45rem;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 0.2px;
+    border-radius: 4px;
 }
 
 /* MQ RULES
