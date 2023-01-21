@@ -1,14 +1,15 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import Dashboard from './components/Dashboard'
 import Login from './components/Login';
+import Profile from './components/Profile';
 
 function App() {
   return (
     <>
-      <Dashboard />
-      {/* <Login /> */}
+      <Profile />
+      <Login />
+      {/* <Dashboard /> */}
     </>
   );
 }
