@@ -109,8 +109,8 @@ const Profile = () => {
             </svg>
             <header className="page-header">
                 <nav>
-                    <a href="#0" aria-label="forecastr logo" className="logo">
-                        <img src={logo} alt="" width={150} height={150}/>
+                <a href="#0" aria-label="Logo" className="logo">
+                        <img id="big-winners-central-logo" src={logo} alt="Logo" width={150} height={150} />
                     </a>
                     <button
                         className="toggle-mob-menu"
@@ -192,46 +192,14 @@ const Profile = () => {
                                 <span>Options</span>
                             </a>
                         </li>
-                        <li>
-                            <a href="#0">
-                                <svg>
-                                    <use xlinkHref="#charts" />
-                                </svg>
-                                <span>Charts</span>
-                            </a>
-                        </li>
-                        <li>
-                            <div className="switch">
-                                <input type="checkbox" id="mode" defaultChecked />
-                                <label htmlFor="mode">
-                                    <span />
-                                    <span>Dark</span>
-                                </label>
-                            </div>
-                            <button
-                                className="collapse-btn"
-                                aria-expanded="true"
-                                aria-label="collapse menu"
-                            >
-                                <svg aria-hidden="true">
-                                    <use xlinkHref="#collapse" />
-                                </svg>
-                                <span>Collapse</span>
-                            </button>
-                        </li>
                     </ul>
                 </nav>
             </header>
             <section className="page-content">
                 <section className="search-and-user">
-                    <form>
-                        <input type="search" placeholder="Search Winner..." />
-                        <button type="submit" aria-label="submit form">
-                            <svg aria-hidden="true">
-                                <use xlinkHref="#search" />
-                            </svg>
-                        </button>
-                    </form>
+                    <div>
+                        <h1 id="winners-name">Full name</h1>
+                    </div>
                     <div className="admin-profile">
                         <span className="greeting">Hello admin</span>
                         <div className="notifications">
@@ -243,95 +211,124 @@ const Profile = () => {
                     </div>
                 </section>
                 <section className="grid">
-                    <article>
+                    <div className="general__container">
+                        <div className="general__content">
+                            <h1 className="section__headers">General</h1>
+                            <br></br>
+                            <table className="general__table">
+                                <tr>
+                                    <td>Customer ID</td>
+                                    <td>XX-XXX-XXX-XXX</td>
+                                </tr>
+                                <tr>
+                                    <td>Order ID</td>
+                                    <td>XX-XXXXX-XXXX</td>
+                                </tr>
+                                <tr>
+                                    <td>Draw Date</td>
+                                    <td>mm/dd/yyyy</td>
+                                </tr>
+                                <tr>
+                                    <td>Game</td>
+                                    <td>Powerball</td>
+                                </tr>
+                                <tr>
+                                    <td>Amount Won</td>
+                                    <td>$XX.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Ticket Images</td>
+                                    <td>URL</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div className="tracking__container">
+                        <div className="tracking__content">
+                            <h1 className="section__headers">Tracking</h1>
+                            <br></br>
+                            <table className="tracking__table">
+                                <tr>
+                                    <td>Tracking No.</td>
+                                    <td>126737478FJ338DF2</td>
+                                </tr>
+                                <tr>
+                                    <td>Mailed By</td>
+                                    <td>example@lotto.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Date Mailed</td>
+                                    <td>mm/dd/yyyy</td>
+                                </tr>
+                                <tr>
+                                    <td>Delivery Status</td>
+                                    <td>
+                                        <select>
+                                            <option selected="selected"></option>
+                                            <option>Sent</option>
+                                            <option>Delivered</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Winners Box Status</td>
+                                    <td>
+                                        <select>
+                                            <option selected="selected"></option>
+                                            <option>N/A</option>
+                                            <option>Sent</option>
+                                            <option>Delivered</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Winners Box Images</td>
+                                    <td>URL</td>
+                                </tr>
+                                <tr>
+                                    <td>Email Sent</td>
+                                    <td> <input type="checkbox"></input> </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div className="personal__container">
+                        <div className="personal__content">
+                            <h1 className="section__headers">Personal</h1>
+                            <br></br>
+                            <table className="personal__table">
+                                <tr>
+                                    <td>Full Name</td>
+                                    <td contentEditable="true" >David Pedrero</td>
+                                </tr>
+                                <tr>
+                                    <td>Address</td>
+                                    <td>4109 7th ave Brooklyn, New York 11232</td>
+                                </tr>
+                                <tr>
+                                    <td>Zendesk Ticket</td>
+                                    <td>URL</td>
+                                </tr>
+                                <tr>
+                                    <td>Docs Confirmed</td>
+                                    <td>   <input type="checkbox" /> </td>
+                                </tr>
+                                <tr>
+                                    <td>Ready for Mailout</td>
+                                    <td><input type="checkbox" /></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
                     <div>
-                    <h1>General</h1>
-                    <br></br>
-                    <label for="fname">Full name: </label>
-                    <input type="text" id="fname" name="fname"></input>
-                    <br></br><br></br>
-                    <label for="fname">Order ID: </label>
-                    <input type="text" id="fname" name="fname"></input>
-                    <br></br><br></br>
-                    <label for="fname">Customer ID: </label>
-                    <input type="text" id="fname" name="fname"></input>
-                    <br></br><br></br>
-                    <label for="fname">Draw Date: </label>
-                    <input type="text" id="fname" name="fname"></input>
-                    <br></br><br></br>
-                    <label for="fname">Game: </label>
-                    <input type="text" id="fname" name="fname"></input>
-                    <br></br><br></br>
-                    <label for="fname">Amount Won: </label>
-                    <input type="text" id="fname" name="fname"></input>
-                    <br></br><br></br>
-                    <label for="fname">Ticket Images: </label>
-                    <input type="text" id="fname" name="fname"></input>
+                        <div className="notes">
+                            <h1 className="section__headers">Notes</h1>
+                            <br></br>
+                            <div>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas quae earum ullam voluptatibus praesentium aliquid fugit repudiandae tempora molestias, odit eaque nobis quod, aut eos ipsam at odio! Inventore animi quam nemo voluptate architecto fugit sunt ad at aut vitae id officiis veniam labore, beatae dolorum cumque vel necessitatibus reiciendis!
+                            </div>
+                        </div>
                     </div>
-                    </article>
-                    <article>
-                    <div>
-                    <h1>Personal</h1>
-                    <br></br>
-                    <label for="fname">Address: </label>
-                    <input type="text" id="fname" name="fname"></input>
-                    <br></br><br></br>
-                    <label for="fname">Documents Confirmed?: </label>
-                    <input type="text" id="fname" name="fname"></input>
-                    <br></br><br></br>
-                    <label for="fname">Zendesk Ticket: </label>
-                    <input type="text" id="fname" name="fname"></input>
-                    <br></br><br></br>
-                    <label for="fname">Url: </label>
-                    <input type="text" id="fname" name="fname"></input>
-                    <br></br><br></br>
-                    <label for="fname">Ready for Mailout: </label>
-                    <input type="text" id="fname" name="fname"></input>
-                    <br></br><br></br>
-                    </div>
-                    </article>
-                    <article>
-                    <div>
-                    <h1>Tracking</h1>
-                    <br></br>
-                    <label for="fname">Tracking Number: </label>
-                    <input type="text" id="fname" name="fname"></input>
-                    <br></br><br></br>
-                    <label for="fname">Mailed By: </label>
-                    <input type="text" id="fname" name="fname"></input>
-                    <br></br><br></br>
-                    <label for="fname">Date Mailed: </label>
-                    <input type="text" id="fname" name="fname"></input>
-                    <br></br><br></br>
-                    <label for="fname">Winners Box Status: </label>
-                    <input type="text" id="fname" name="fname"></input>
-                    <br></br><br></br>
-                    <label for="fname">Image: </label>
-                    <input type="text" id="fname" name="fname"></input>
-                    <br></br><br></br>
-                    <label for="fname">Email Sent: </label>
-                    <input type="text" id="fname" name="fname"></input>
-                    <br></br><br></br>
-                    <label for="fname">Delivery Status: </label>
-                    <input type="text" id="fname" name="fname"></input>
-                    <br></br><br></br>
-                    </div>
-                    </article>
-                    <article>
-                    <div id="notes">
-                    <h1>Notes</h1>
-                    <br></br>
-                    <textarea rows="4" cols="50"></textarea>
-                    <br></br><br></br>
-                    </div>
-                    </article>
-                    {/* <article /> */}
-                    {/* <article /> */}
-                    {/* <article /> */}
-                    {/* <article /> */}
-                    {/* <article /> */}
-                    {/* <article /> */}
-                    {/* <article /> */}
                 </section>
                 <footer className="page-footer">
                     <span>made by </span>

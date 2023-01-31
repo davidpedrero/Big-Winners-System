@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Profile />
-      <Login />
+      {/* <Login />  */}
       {/* <Dashboard /> */}
     </>
   );
