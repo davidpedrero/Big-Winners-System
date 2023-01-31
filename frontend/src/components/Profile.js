@@ -1,6 +1,7 @@
 import React from "react";
 import "./Profile.css";
 import logo from '../images/logo.png';
+import {TbEdit} from 'react-icons/tb'
 
 const Profile = () => {
     return (
@@ -196,6 +197,9 @@ const Profile = () => {
                 </nav>
             </header>
             <section className="page-content">
+                <a href="https://www.google.com/">
+                    <TbEdit id="edit__button" />
+                </a>
                 <section className="search-and-user">
                     <div>
                         <h1 id="winners-name">Full name</h1>

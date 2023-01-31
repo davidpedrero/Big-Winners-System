@@ -255,6 +255,21 @@ body {
     fill: var(--page-content-txtColor);
 }
 
+#edit__button {
+    position: fixed;
+    top: 90vh;
+    right: 3vw;
+    height: 6%;
+    width: 4%;
+    background-color: #fbfeff;
+    border-radius: 50%;
+    filter: drop-shadow(0px 0px 5px var(--page-content-txtColor));
+}
+
+.edit__button > svg {
+    size: 10rem;
+}
+
 .search-and-user form button {
     position: absolute;
     top: 50%;
@@ -312,7 +327,7 @@ body {
 .tracking__table > tr > td:first-child,
 .personal__table > tr > td:first-child,
 .general__table > tr > td:first-child {
-    padding-right: 3rem;
+    padding-right: 8rem;
     padding-bottom: 1.5rem;
     color: var(--page-header-bgColor);
     font-size: 0.8rem;
@@ -328,6 +343,18 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.general__header {
+
+}
+
+.general__header > h1 {
+    float: left;
+}
+
+.general__header > svg {
+    float: right;
+}
+
 /* .page-content .grid>div:first-child,
 .page-content .grid>div:last-child {
     grid-column: 1 / -1;
@@ -336,6 +363,8 @@ body {
 .page-content .grid > div > div {
     margin: 2rem 2rem 2rem 2rem;
 }
+
+÷
 
 .page-content .grid > div > div > input {
     outline: none;
