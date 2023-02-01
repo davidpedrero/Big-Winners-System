@@ -7,6 +7,7 @@ const ProfileScreen = () => {
         <div>
             <SideDrawer />
             <Profile />
+            <div></div>
         </div>
     )
 }
