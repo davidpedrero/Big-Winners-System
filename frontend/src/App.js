@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Login from './components/Login';
-import Profile from './components/Profile';
+// import LoginScreen from './screens/LoginScreen';
+import ProfileScreen from './screens/ProfileScreen';
 
 function App() {
   return (
     <>
-      <Profile />
-      {/* <Login />  */}
+      {/* <LoginScreen />  */}
+      <ProfileScreen />
     </>
   );
 }
