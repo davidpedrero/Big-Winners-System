@@ -1,15 +1,14 @@
 import React from 'react'
 import Profile from '../components/Profile';
-import SideDrawer from '../components/SideDrawer';
+import Sidebar from '../components/Sidebar';
 
 const ProfileScreen = () => {
     return (
         <div>
-            <SideDrawer />
+            <Sidebar />
             <Profile />
-            <div></div>
         </div>
     )
 }
 
-export default ProfileScreen
+export default ProfileScreen;
