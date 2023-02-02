@@ -96,12 +96,12 @@ body {
 }
 
 .page-header .admin-menu li:nth-last-child(2) {
-    margin-bottom: 35px;
+    margin-bottom: 100px;
 }
 
 .page-header .admin-menu li:last-child {
     margin-top: auto;
-    margin-bottom: 20px;
+    margin-bottom: 200px;
 }
 
 .page-header .admin-menu li>* {
