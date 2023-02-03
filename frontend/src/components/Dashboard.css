@@ -26,12 +26,6 @@
     left: var(--page-header-width);
 }
 
-.dashboard-container > h1 {
-    font-size: 4rem;
-    margin: 1rem 0 0 1rem;
-    color: var(--page-header-bgColor);
-}
-
 .dashboard-container .dashboard-content {
     height: 30vh;
 }
@@ -45,7 +39,30 @@
     width: 15rem;
 }
 
+.state-tabs {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    overflow: hidden;
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+.tablinks {
+    color: rebeccapurple;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    background-color:bisque;
+}
+
 .dashboard-grid {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 1rem;
+}
+
+.dashboard-grid > span {
+    margin-top: 3rem;
+    margin-left: 1rem;
 }
