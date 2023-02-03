@@ -5,6 +5,12 @@ html {
     height: 100%;
 }
 
+#big-winners-central-logo-login {
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 5vh;
+}
+
 .container {
     /* Remember to use the other versions for IE 10 and older browsers! */
     display: flex;
@@ -22,8 +28,11 @@ html {
             #3a6073);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top,
+            #1d2636,
+            #1d2636);
+    /* background: linear-gradient(to top,
             #131c56,
-            #1530ff76);
+            #1530ff76); */
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     flex-direction: column;
 }
@@ -44,7 +53,6 @@ html {
 }
 
 input {
-    border: 0;
     color: inherit;
     font: inherit;
     margin: 0;
@@ -57,19 +65,20 @@ input {
 .user:before {
     content: "\f007";
     font: 14px fontawesome;
-    color: #5b5b5b;
+    color: #ffffff;
 }
 
 .lock:before {
     content: "\f023";
     font: 14px fontawesome;
-    color: #5b5b5b;
+    color: #ffffff;
 }
 
 .form input[type="password"],
 .form input[type="text"],
 .form input[type="submit"] {
     width: 100%;
+    border: 0;
 }
 
 .form-login label,
@@ -82,7 +91,7 @@ input {
 }
 
 .form-login label {
-    background-color: #222222;
+    background-color: #e91e63;
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
     padding-left: 1.25rem;
@@ -112,7 +121,7 @@ input {
 
 .form-login input[type="submit"]:focus,
 .form-login input[type="submit"]:hover {
-    background-color: #000000;
+    background-color: #d21a92;
 }
 
 .form-field {

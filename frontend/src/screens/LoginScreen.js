@@ -1,11 +1,13 @@
 import React from 'react';
 import './LoginScreen.css';
+import logo from '../images/logo.png';
 
 function Login() {
     return (
         <>
             <div className="container">
-                <div className="logo">Big Winners Central</div>
+                <img id="big-winners-central-logo-login" src={logo} alt="Logo" width={250} height={250} />
+                {/* <div className="logo">Big Winners Central</div> */}
                 <div className="login-item">
                     <form action method="post" className="form form-login">
                         <div className="form-field">

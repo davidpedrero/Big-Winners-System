@@ -10,9 +10,7 @@ const Sidebar = () => {
         <div>
             <header className="page-header">
                 <nav>
-                <a href="#0" aria-label="Logo" className="logo">
-                    <img id="big-winners-central-logo" src={logo} alt="Logo" width={150} height={150} />
-                </a>
+                <img id="big-winners-central-logo" src={logo} alt="Logo" width={150} height={150} />
                 <button className="toggle-mob-menu" aria-expanded="false" aria-label="open menu">
                     <svg width={20} height={20} aria-hidden="true">
                         <use xlinkHref="#down" />
@@ -61,6 +59,7 @@ const Sidebar = () => {
                                 <span>Settings</span>
                             </a>
                         </li>
+                        {/* <hr></hr> */}
                         <li>
                             <a href="#0">
                                 <MdLogout />

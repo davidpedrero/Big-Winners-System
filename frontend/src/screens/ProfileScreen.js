@@ -4,10 +4,10 @@ import Sidebar from '../components/Sidebar';
 
 const ProfileScreen = () => {
     return (
-        <div>
+        <>
             <Sidebar />
             <Profile />
-        </div>
+        </>
     )
 }
 
