@@ -13,13 +13,99 @@ export const Dashboard = () => {
                 <button class="tablinks" onclick="">Arkansas</button>
                 <button class="tablinks" onclick="">Minnesota</button>
             </div>
-            <div className='dashboard-grid'>
-                <span>Full Name</span>
-                <span>Order ID</span>
-                <span>Win Draw Date</span>
-                <span>Ready for Mailout</span>
-                <span>Delivery Status</span>
-            </div>
+            <table className='dashboard-table'>
+                <tr className='dashboard-header'>
+                    <td>Full Name</td>
+                    <td>Order ID</td>
+                    <td>Win Draw Date</td>
+                    <td>Ready for Mailout</td>
+                    <td>Delivery Status</td>
+                </tr>
+                <tr className='dashboard-row'>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr className='dashboard-row'>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr className='dashboard-row'>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr className='dashboard-row'>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr className='dashboard-row'>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr className='dashboard-row'>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr className='dashboard-row'>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr className='dashboard-row'>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr className='dashboard-row'>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr className='dashboard-row'>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr className='dashboard-row'>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr className='dashboard-row'>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
         </div>
     </div>
     )

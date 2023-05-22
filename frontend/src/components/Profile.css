@@ -188,10 +188,6 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.general__header {
-
-}
-
 .general__header > h1 {
     float: left;
 }

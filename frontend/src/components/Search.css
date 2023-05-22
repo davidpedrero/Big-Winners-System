@@ -22,8 +22,11 @@
 .search-page-container {
     position: relative;
     height: 100vh;
-    width: calc(100% - var(--page-header-width));
+    width: calc(100% - var(--page-header-width) - 20px);
     left: var(--page-header-width);
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 20px;
 }
 
 .search-page-container .search-page-content {
